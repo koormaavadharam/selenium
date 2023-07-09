@@ -16,7 +16,7 @@ public class alert {
 		
         driver.manage().window().maximize();
         
-        driver.navigate().refresh();
+    
         
         WebElement alert = driver.findElement(By.xpath("(//button[@type='button'])[2]"));
         
